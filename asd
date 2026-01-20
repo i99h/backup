@@ -321,21 +321,21 @@ function Lib:CreateWindow(Name)
         toggle.Name = "On"
         toggle.Parent = Holder
         toggle.Active = false
-        toggle.BackgroundColor3 = Color3.fromRGB(0, 255, 244)
+        toggle.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
         toggle.BackgroundTransparency = 1.000
         toggle.Selectable = false
         toggle.Size = UDim2.new(1, 0, 1, 0)
         toggle.Font = Enum.Font.Roboto
-        toggle.TextColor3 = Color3.fromRGB(0, 255, 244)
+        toggle.TextColor3 = Color3.fromRGB(0, 255, 0)
         toggle.TextSize = 12.000
-        toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 244)
+        toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
         toggle.TextStrokeTransparency = 0.920
         toggle.TextXAlignment = Enum.TextXAlignment.Left
         
         if default then
             toggle.Text = "On"
             toggle.TextColor3 = Color3.fromRGB(0,255,244)
-            toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 244)
+            toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
         else
             toggle.Text = "Off"
             toggle.TextColor3 = Color3.fromRGB(255,0,0)
