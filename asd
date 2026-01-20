@@ -334,12 +334,12 @@ function Lib:CreateWindow(Name)
         
         if default then
             toggle.Text = "On"
-            toggle.TextColor3 = Color3.fromRGB(0,255,244)
+            toggle.TextColor3 = Color3.fromRGB(0, 255, 0)
             toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
         else
             toggle.Text = "Off"
             toggle.TextColor3 = Color3.fromRGB(255,0,0)
-            toggle.TextStrokeColor3 = Color3.fromRGB(0,255,244)
+            toggle.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
         end
 
         Text_2.Name = "Text"
@@ -365,7 +365,7 @@ function Lib:CreateWindow(Name)
             else
                 toggle.Text = "On"
                 location[flag] = true
-                toggle.TextColor3 = Color3.fromRGB(0,255,244)
+                toggle.TextColor3 = Color3.fromRGB(0, 255, 0)
             end
             spawn(callback)
         end)
